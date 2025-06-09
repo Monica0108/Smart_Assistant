@@ -5,6 +5,7 @@ This assistant promotes independent learning and bridges educational gaps for di
 
 # Features
 1.Start
+
 2.Input Disability Type
 ## User selects:
      -Visual Impairment
