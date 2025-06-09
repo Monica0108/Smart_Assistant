@@ -3,7 +3,7 @@ The Smart Learning Assistant uses AI to support students with visual, hearing, a
 It offers personalized, accessible learning experiences that adapt to individual needs.
 This assistant promotes independent learning and bridges educational gaps for disabled students.
 
-# ** Features**
+# **Features**
 
 **1.Input Options**
 
@@ -121,7 +121,7 @@ This application is bulit using:
 
 •	Audio Streaming: streamlit-webrtc, av, numpy
 
-# ** Browsing compatability**
+# **Browsing compatability**
 
 **1.Cross-Browser Support:**
 
