@@ -56,12 +56,19 @@ This assistant promotes independent learning and bridges educational gaps for di
 
 # How to use
 STEP 1: PREPARE YOUR COMPUTER
+
 • Ensure you have Python 3.10 or newer installed.
-• Confirm that your system has a working microphone and
-speakers/headphones for voice interaction.
+
+• Confirm that your system has a working microphone and speakers/headphones for voice interaction.
+
 • Create a dedicated folder on your computer to house your project files.
+
 STEP 2: CREATE AND ACTIVATE A VIRTUAL ENVIRONMENT
+
 • Open your command line interface (Terminal or Command Prompt).
+
 • Navigate to your project folder.
+
 • Create a virtual environment to isolate project dependencies.
+
 • Activate the virtual environment before installing any packages.
