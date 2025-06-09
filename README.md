@@ -1,61 +1,30 @@
-# Smart_Assistant
+# **Smart Learning Assistant**
 The Smart Learning Assistant uses AI to support students with visual, hearing, and cognitive impairments through tools like text-to-speech, speech-to-text, and content simplification.
 It offers personalized, accessible learning experiences that adapt to individual needs.
 This assistant promotes independent learning and bridges educational gaps for disabled students.
 
-# Features
-1.Start
+# ** Features**
 
-2.Input Disability Type
-## User selects:
-     -Visual Impairment
-     -Hearing Impairment
-     -Cognitive Impairment
+**1.Input Options**
 
-3.Input Educational Content
-       
-       - Accept text, audio, or video content as input
+•	Text input via Streamlit text box
 
-4.Process Based on Disability
+•	Voice input via microphone (speech_recognition + webrtc)
 
-->If Visual Impairment:
-       
-        -Use Text-to-Speech (TTS) for audio output
+**2.Processing**
 
-->If Hearing Impairment:
-        
-        -Use Speech-to-Text (STT) for text output
+•	Input sent to Groq API (llama3-70b-8192)
 
-->If Cognitive Impairment:
-        
-        -Use NLP for simplified and summarized content
+•	Model generates accessible, simplified, or creative responses
 
-5.Deliver Adapted Content
-      
-       -Output content in a suitable format (audio/text/simple text)
+**3.Output Options**
 
+•	Text displayed on screen
 
-6.Present Educational Riddle
-       
-       -Generate a riddle related to the content topic
-       
-       -Example: "I have hands but no fingers. I move but stay in place. What am I?"
-        (Answer: A clock – related to time/math)
+•	Voice feedback through pyttsx3
 
-7.Allow User Interaction
-
-      -User answers riddle or asks for a hint
-     
-      -Assistant gives feedback and explanation
-      
-      -Option to repeat or skip
-
-8.Track Learning Progress
-
-9.End
-
-# How to use
-STEP 1: PREPARE YOUR COMPUTER
+# **How to use**
+**STEP 1: PREPARE YOUR COMPUTER**
 
 • Ensure you have Python 3.10 or newer installed.
 
@@ -63,7 +32,7 @@ STEP 1: PREPARE YOUR COMPUTER
 
 • Create a dedicated folder on your computer to house your project files.
 
-STEP 2: CREATE AND ACTIVATE A VIRTUAL ENVIRONMENT
+**STEP 2: CREATE AND ACTIVATE A VIRTUAL ENVIRONMENT**
 
 • Open your command line interface (Terminal or Command Prompt).
 
@@ -73,7 +42,7 @@ STEP 2: CREATE AND ACTIVATE A VIRTUAL ENVIRONMENT
 
 • Activate the virtual environment before installing any packages.
 
-STEP 3: INSTALL REQUIRED SOFTWARE PACKAGES
+**STEP 3: INSTALL REQUIRED SOFTWARE PACKAGES**
 
 • Install all necessary Python libraries required by your project, such as:
 
@@ -85,7 +54,7 @@ STEP 3: INSTALL REQUIRED SOFTWARE PACKAGES
 
 • Audio handling packages
 
-STEP 4: CONFIGURE THE AI ACCESS KEY
+**STEP 4: CONFIGURE THE AI ACCESS KEY**
 
 • Register or log in to your AI service provider (Groq).
 
@@ -94,7 +63,7 @@ STEP 4: CONFIGURE THE AI ACCESS KEY
 • Make sure this key is updated in your project’s configuration to enable
 communication with the AI backend.
 
-STEP 5: ORGANIZE AND SAVE YOUR PROJECT FILES
+**STEP 5: ORGANIZE AND SAVE YOUR PROJECT FILES**
 
 • Place your application code and resources, including the main application script, inside your project folder.
 
@@ -104,9 +73,10 @@ STEP 6: LAUNCH THE APPLICATION
 
 • Run the application using the appropriate command via your terminal with the virtual environment activated.
 
-• This command will start a local web server and present you with a link,usually `http://localhost:8501`, to open your app in the browser.
+• This command will start a local web server and present you with a link,usually
+`http://localhost:8501`, to open your app in the browser.
 
-STEP 7: ACCESS AND USE THE APPLICATION
+**STEP 7: ACCESS AND USE THE APPLICATION**
 
 • Open the provided local web address in a modern web browser.
 
@@ -122,22 +92,59 @@ STEP 7: ACCESS AND USE THE APPLICATION
 
 • Interactive riddles combining multiple accessibility supports
 
-• Follow the straightforward on-screen prompts to ask questions, listen toresponses, or solve riddles.
-
-• The design will feature subtle shadows and rounded corners on cards, anuncluttered layout organized vertically with consistent spacing andpadding for comfortable reading and interaction.
-
-• Buttons and interactive elements will have gentle hover effects, ensuring a smooth user experience.
-
 **STEP 8: HANDLE PERMISSIONS AND SETTINGS**
 
 • Allow your browser to access your microphone when prompted, necessary for voice-based features.
 
 • Adjust your device volume and microphone settings for best interaction results.
 
-STEP 9 : TROUBLESHOOT IF NEEDED
+**STEP 9 : TROUBLESHOOT IF NEEDED**
 
 • If voice features don’t respond, verify microphone permissions and hardware settings.
 
 • If AI responses don’t appear, confirm your API key is correct and that your device has internet access.
 
 • Look at the terminal/command prompt logs for error messages to guide troubleshooting.
+
+# **Technical Detail**
+This application is bulit using:
+
+•	Frontend: Streamlit (Python-based web app framework)
+
+•	Backend: Python
+
+•	AI Model: Groq API using llama3-70b-8192
+
+•	Speech Recognition: speech_recognition (Google Web Speech API)
+
+•	Text-to-Speech (TTS): pyttsx3 (offline engine)
+
+•	Audio Streaming: streamlit-webrtc, av, numpy
+
+# ** Browsing compatability**
+
+**1.Cross-Browser Support:**
+
+The web application is built using Streamlit, which ensures compatibility with all modern web browsers including:
+
+•	Google Chrome
+
+•	Microsoft Edge
+
+•	Mozilla Firefox
+
+•	Safari (latest versions)
+
+**2.Responsive Design:**
+
+The assistant UI is responsive and adapts well to different screen sizes, including:
+
+•	Desktop
+
+•	Tablets
+
+•	Mobile devices
+
+# **License**
+
+This project is for personal use only.
