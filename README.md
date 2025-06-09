@@ -72,3 +72,72 @@ STEP 2: CREATE AND ACTIVATE A VIRTUAL ENVIRONMENT
 • Create a virtual environment to isolate project dependencies.
 
 • Activate the virtual environment before installing any packages.
+
+STEP 3: INSTALL REQUIRED SOFTWARE PACKAGES
+
+• Install all necessary Python libraries required by your project, such as:
+
+• The web app framework
+
+• Speech recognition and processing tools
+
+• AI client libraries
+
+• Audio handling packages
+
+STEP 4: CONFIGURE THE AI ACCESS KEY
+
+• Register or log in to your AI service provider (Groq).
+
+• Retrieve your unique API key.
+
+• Make sure this key is updated in your project’s configuration to enable
+communication with the AI backend.
+
+STEP 5: ORGANIZE AND SAVE YOUR PROJECT FILES
+
+• Place your application code and resources, including the main application script, inside your project folder.
+
+• Ensure all dependencies and configurations are correctly linked and saved.
+
+STEP 6: LAUNCH THE APPLICATION
+
+• Run the application using the appropriate command via your terminal with the virtual environment activated.
+
+• This command will start a local web server and present you with a link,usually `http://localhost:8501`, to open your app in the browser.
+
+STEP 7: ACCESS AND USE THE APPLICATION
+
+• Open the provided local web address in a modern web browser.
+
+• You will see a sleek, clean interface that follows a light theme, with a lot of whitespace and large, elegant typography for headings.
+
+• Select the accessibility mode you need:
+
+• Voice interaction for visual impairment with audio input/output
+
+• Text input for hearing impairment
+
+• Simplified content for cognitive impairment
+
+• Interactive riddles combining multiple accessibility supports
+
+• Follow the straightforward on-screen prompts to ask questions, listen toresponses, or solve riddles.
+
+• The design will feature subtle shadows and rounded corners on cards, anuncluttered layout organized vertically with consistent spacing andpadding for comfortable reading and interaction.
+
+• Buttons and interactive elements will have gentle hover effects, ensuring a smooth user experience.
+
+**STEP 8: HANDLE PERMISSIONS AND SETTINGS**
+
+• Allow your browser to access your microphone when prompted, necessary for voice-based features.
+
+• Adjust your device volume and microphone settings for best interaction results.
+
+STEP 9 : TROUBLESHOOT IF NEEDED
+
+• If voice features don’t respond, verify microphone permissions and hardware settings.
+
+• If AI responses don’t appear, confirm your API key is correct and that your device has internet access.
+
+• Look at the terminal/command prompt logs for error messages to guide troubleshooting.
